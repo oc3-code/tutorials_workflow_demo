@@ -20,7 +20,8 @@ jobs:
   build-and-test:
 
     # The runner environment to use
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     # Steps mostly contain CLI commands (via "run") and actions (via "uses")
     # Each step begins with a hyphen -
